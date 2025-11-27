@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description"
-        content="Portfolio of Haydon Sloper">
+        content="Portfolio of Oliver Form, a teenage developer passionate about crafting elegant software.">
 
-    <title>Haydon Sloper</title>
+    <title>Oliver Form | Developer</title>
     
-    <meta property="og:title" content="Haydon Sloper">
+    <meta property="og:title" content="Oliver Form | Developer">
     <meta property="og:description"
-        content="Portfolio website of Haydon Sloper">
+        content="Portfolio website of Oliver Form - a builder who values clarity and simplicity in well crafted software.">
     <meta property="og:image">
-    <meta property="og:site_name" content="Haydon Sloper">
+    <meta property="og:site_name" content="Oliver Form | Developer">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Inline critical CSS for nav and header -->
@@ -67,14 +67,55 @@
     <nav class="nav">
         <ul class="nav__list">
             <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#writing" class="nav__link">Writing</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
     </nav>
 
     <header class="header-container" id="about-header">
         <img src="assets/profile.jpg" alt="Your Name"/>
-        <h1>Haydon Sloper</h1>
-        <p>Insert phrase here.</p>
-        <a href="assets/Haydon_Sloper_Portfolio.pdf" class="resume-btn" download>Résumé</a>
+        <h1>Oliver Form</h1>
+        <p>Builder who values clarity and simplicity in well crafted software.</p>
+        <a href="assets/Oliver_Form_Resume.pdf" class="resume-btn" download>Résumé</a>
+    </header>
+
+    <header class="header-container" id="projects-header">
+        <h1>Projects</h1>
+        <div class="projects-list">
+          <div class="project-card">
+            <div class="project-title">Forceplay</div>
+            <div class="project-tags">
+                <img src="https://skillicons.dev/icons?i=typescript,react,nextjs,tailwind,vercel" alt="TypeScript, React, Next.js, Tailwind, Vercel" class="skill-icons" loading="lazy"/>
+            </div>
+            <div class="project-desc">A simple, interactive physics sandbox to visualise mechanics problems, built with NextJS and Canvas API.</div>
+            <div class="project-links">
+              <a href="https://forceplay.vercel.app/" class="project-link" tabindex="-1">Live Demo</a>
+              <a href="https://github.com/Oliver-Form/forceplay/tree/main" class="project-link" tabindex="-1">Source</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-title">Rusty Chess</div>
+            <div class="project-tags">
+              <img src="https://skillicons.dev/icons?i=rust,html,javascript" alt="Rust, HTML, JS" class="skill-icons" loading="lazy"/>
+            </div>
+            <div class="project-desc">A real-time online chess game with a Rust backend and a JavaScript frontend, allowing players to play against each other in the browser.</div>
+            <div class="project-links">
+              <!-- <a href="#" class="project-link" tabindex="-1">Live Demo</a> -->
+              <a href="https://github.com/Oliver-Form/chess" class="project-link" tabindex="-1">Source</a>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <header class="header-container" id="writing-header">
+        <h1>Writing</h1>
+        <p>Placeholder text for writing page</p>
+    </header>
+
+    <header class="header-container" id="contact-header">
+        <h1>Contact</h1>
+        <p>Placeholder text for contact page</p>
     </header>
 
     <script src="js/animated-bg.js" defer></script>
